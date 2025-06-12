@@ -1,0 +1,70 @@
+=== WHOIS ===
+creation_date: 2001-08-30 00:00:00
+expiration_date: 2025-08-30 00:00:00
+name_servers: MYNS1.MYHAWKER.COM, MYNS2.MYHAWKER.COM, MYNS3.MYHAWKER.COM
+status: Domain is Registered
+
+=== DNS Enumeration ===
+dnsrecon error:
+
+=== Subdomains ===
+[91m
+                 ____        _     _ _     _   _____
+                / ___| _   _| |__ | (_)___| |_|___ / _ __
+                \___ \| | | | '_ \| | / __| __| |_ \| '__|
+                 ___) | |_| | |_) | | \__ \ |_ ___) | |
+                |____/ \__,_|_.__/|_|_|___/\__|____/|_|[0m[93m
+
+                # Coded By Ahmed Aboul-Ela - @aboul3la
+    
+[94m[-] Enumerating subdomains now for szabist-isb.edu.pk[0m
+[92m[-] Searching now in Baidu..[0m
+[92m[-] Searching now in Yahoo..[0m
+[92m[-] Searching now in Google..[0m
+[92m[-] Searching now in Bing..[0m
+[92m[-] Searching now in Ask..[0m
+[92m[-] Searching now in Netcraft..[0m
+[92m[-] Searching now in DNSdumpster..[0m
+[92m[-] Searching now in Virustotal..[0m
+[92m[-] Searching now in ThreatCrowd..[0m
+[92m[-] Searching now in SSL Certificates..[0m
+[92m[-] Searching now in PassiveDNS..[0m
+[91m[!] Error: Virustotal probably now is blocking our requests[0m
+[93m[-] Saving results to file: [0m[91m-[0m
+[93m[-] Total Unique Subdomains Found: 2[0m
+[92mspringzabdesk.szabist-isb.edu.pk[0m
+[92mverify.szabist-isb.edu.pk[0m
+
+=== HTTPX Probing ===
+{"timestamp":"2025-06-12T15:41:58.571380905+05:00","port":"443","url":"https://szabist-isb.edu.pk","input":"szabist-isb.edu.pk","title":"SZABIST Islamabad","scheme":"https","webserver":"Microsoft-IIS/10.0","content_type":"text/html","method":"GET","host":"111.68.108.206","path":"/","time":"1.696489491s","a":["111.68.108.206"],"tech":["Elementor:3.28.1","Google Analytics","HSTS","IIS:10.0","Mailcheck:2.2.6","MySQL","PHP:7.4.32","Swiper","Windows Server","WordPress:6.7.2","Yoast SEO Premium:24.7","Yoast SEO:24.7","jQuery","jQuery Migrate:3.4.1","reCAPTCHA"],"words":10780,"lines":1335,"status_code":200,"content_length":207052,"failed":false,"knowledgebase":{"PageType":"other","pHash":0},"resolvers":["1.1.1.1:53","1.0.0.1:53"]}
+
+=== Port Scanning ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-12 15:41 PKT
+Nmap scan report for szabist-isb.edu.pk (111.68.108.206)
+Host is up (0.028s latency).
+rDNS record for 111.68.108.206: szabist.edu.pk
+Not shown: 9 filtered tcp ports (no-response), 3 closed tcp ports (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+53/tcp  open  domain   (unknown banner: dnsmasq-)
+80/tcp  open  http     Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+443/tcp open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.95%I=7%D=6/12%Time=684AAF15%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,35,"\x003\0\x06\x85\x80\0\x01\0\x01\0\0\0\0\x07version
+SF:\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\t\x08dnsmasq-");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 35.41 seconds
+
+=== Banner Grabbing (Nikto) ===
+=== http://szabist-isb.edu.pk:80 ===
+No interesting findings.
+
+=== https://szabist-isb.edu.pk:443 ===
+No interesting findings.
+
+=== Technology Detection (WhatWeb) ===
+https://szabist-isb.edu.pk :
+

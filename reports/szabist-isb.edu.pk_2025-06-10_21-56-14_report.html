@@ -1,0 +1,95 @@
+<html><head><meta charset='utf-8'><title>Recon1100 Report</title>
+
+    <style>
+    body { font-family: Arial, sans-serif; background: #f8f9fa; color: #212529; }
+    .container { margin: 2em auto; max-width: 900px; background: #fff; border-radius: 8px; box-shadow: 0 2px 10px #aaa; padding: 2em;}
+    h1, h2 { color: #0074d9; }
+    .section { margin-bottom: 2em; }
+    .badge { display: inline-block; padding: 3px 8px; border-radius: 6px; background: #eee; font-size: 0.9em;}
+    ul { margin: 0; padding-left: 1.5em;}
+    pre { background: #f4f4f4; padding: 1em; border-radius: 4px; overflow-x: auto;}
+    </style>
+    
+</head><body>
+<div class='container'>
+<h1>Recon1100 Report for szabist-isb.edu.pk</h1>
+<div>Generated: <span class='badge'>2025-06-10_21-56-14</span></div>
+<hr>
+<div class='section'><h2>WHOIS</h2>
+<pre>creation_date: 2001-08-30 00:00:00
+expiration_date: 2025-08-30 00:00:00
+name_servers: MYNS1.MYHAWKER.COM, MYNS2.MYHAWKER.COM, MYNS3.MYHAWKER.COM
+status: Domain is Registered
+</pre></div>
+<div class='section'><h2>DNS Enumeration</h2>
+<pre>dnsrecon error: </pre></div>
+<div class='section'><h2>Subdomain Enumeration</h2>
+<pre>[91m
+                 ____        _     _ _     _   _____
+                / ___| _   _| |__ | (_)___| |_|___ / _ __
+                \___ \| | | | '_ \| | / __| __| |_ \| '__|
+                 ___) | |_| | |_) | | \__ \ |_ ___) | |
+                |____/ \__,_|_.__/|_|_|___/\__|____/|_|[0m[93m
+
+                # Coded By Ahmed Aboul-Ela - @aboul3la
+    
+[94m[-] Enumerating subdomains now for szabist-isb.edu.pk[0m
+[92m[-] Searching now in Baidu..[0m
+[92m[-] Searching now in Yahoo..[0m
+[92m[-] Searching now in Google..[0m
+[92m[-] Searching now in Bing..[0m
+[92m[-] Searching now in Ask..[0m
+[92m[-] Searching now in Netcraft..[0m
+[92m[-] Searching now in DNSdumpster..[0m
+[92m[-] Searching now in Virustotal..[0m
+[92m[-] Searching now in ThreatCrowd..[0m
+[92m[-] Searching now in SSL Certificates..[0m
+[92m[-] Searching now in PassiveDNS..[0m
+[91m[!] Error: Virustotal probably now is blocking our requests[0m
+[93m[-] Saving results to file: [0m[91m-[0m
+[93m[-] Total Unique Subdomains Found: 2[0m
+[92mspringzabdesk.szabist-isb.edu.pk[0m
+[92mverify.szabist-isb.edu.pk[0m</pre>
+</div>
+<div class='section'><h2>HTTP Probing (httpx)</h2>
+<p>Live hosts (1):</p>
+<ul><li>https://szabist-isb.edu.pk [200] - SZABIST Islamabad</li></ul>
+</div>
+<div class='section'><h2>Port Scan (Top Ports)</h2>
+<p>Open ports:</p>
+<ul><li>53</li><li>80</li><li>443</li></ul>
+<details><summary>Raw nmap output</summary><pre>Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-10 21:56 PKT
+Nmap scan report for szabist-isb.edu.pk (111.68.108.206)
+Host is up (0.037s latency).
+rDNS record for 111.68.108.206: szabist.edu.pk
+Not shown: 9 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE  VERSION
+53/tcp  open  domain   (unknown banner: dnsmasq-)
+80/tcp  open  http     Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+443/tcp open  ssl/http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.95%I=7%D=6/10%Time=684863E5%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,35,"\x003\0\x06\x85\x80\0\x01\0\x01\0\0\0\0\x07version
+SF:\x04bind\0\0\x10\0\x03\xc0\x0c\0\x10\0\x03\0\0\0\0\0\t\x08dnsmasq-");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 47.21 seconds</pre></details>
+</div>
+<div class='section'><h2>Banner Grabbing</h2>
+<pre>Port 53:
+<no banner received>
+----------------------------------------
+Port 80:
+<connection failed: timed out>
+----------------------------------------
+Port 443:
+<connection failed: timed out>
+----------------------------------------
+</pre>
+</div>
+<div class='section'><h2>Technology Detection (Wappalyzer)</h2>
+<pre>Wappalyzer CLI not found in PATH.</pre>
+</div>
+</div></body></html>

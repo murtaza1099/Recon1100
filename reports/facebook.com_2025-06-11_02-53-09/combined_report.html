@@ -1,0 +1,580 @@
+<html><head><meta charset='UTF-8'><title>Recon1100 Report</title></head><body style='font-family:monospace;'>
+<h1>Recon1100 Combined Report</h1>
+<h2>=== WHOIS ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+domain_name: FACEBOOK.COM
+registrar: RegistrarSafe, LLC
+whois_server: whois.registrarsafe.com
+updated_date: 2025-04-23 19:08:37
+creation_date: 1997-03-29 05:00:00
+expiration_date: 2034-03-30 04:00:00
+name_servers: A.NS.FACEBOOK.COM, B.NS.FACEBOOK.COM, C.NS.FACEBOOK.COM, D.NS.FACEBOOK.COM
+status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited, clientTransferProhibited https://icann.org/epp#clientTransferProhibited, clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited, serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited, serverTransferProhibited https://icann.org/epp#serverTransferProhibited, serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited, clientDeleteProhibited https://www.icann.org/epp#clientDeleteProhibited, clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited, clientUpdateProhibited https://www.icann.org/epp#clientUpdateProhibited, serverDeleteProhibited https://www.icann.org/epp#serverDeleteProhibited, serverTransferProhibited https://www.icann.org/epp#serverTransferProhibited, serverUpdateProhibited https://www.icann.org/epp#serverUpdateProhibited
+emails: abusecomplaints@registrarsafe.com, domain@fb.com
+dnssec: unsigned
+name: Domain Admin
+org: Meta Platforms, Inc.
+address: 1601 Willow Rd
+city: Menlo Park
+state: CA
+registrant_postal_code: 94025
+country: US
+
+</pre>
+<h2>=== DNS Enumeration ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+[*] std: Performing General Enumeration against: facebook.com...
+[-] DNSSEC is not configured for facebook.com
+[*] 	 SOA a.ns.facebook.com 129.134.30.12
+[*] 	 SOA a.ns.facebook.com 2a03:2880:f0fc:c:face:b00c:0:35
+[*] 	 NS b.ns.facebook.com 129.134.31.12
+[*] 	 NS b.ns.facebook.com 2a03:2880:f0fd:c:face:b00c:0:35
+[*] 	 NS c.ns.facebook.com 185.89.218.12
+[*] 	 NS c.ns.facebook.com 2a03:2880:f1fc:c:face:b00c:0:35
+[*] 	 NS d.ns.facebook.com 185.89.219.12
+[*] 	 NS d.ns.facebook.com 2a03:2880:f1fd:c:face:b00c:0:35
+[*] 	 NS a.ns.facebook.com 129.134.30.12
+[*] 	 NS a.ns.facebook.com 2a03:2880:f0fc:c:face:b00c:0:35
+[*] 	 MX smtpin.vvv.facebook.com 173.252.87.251
+[*] 	 MX smtpin.vvv.facebook.com 2a03:2880:11ff:fffd:face:b00c:0:686e
+[*] 	 A facebook.com 57.144.148.1
+[*] 	 AAAA facebook.com 2a03:2880:f34a:1:face:b00c:0:25de
+[*] 	 TXT facebook.com google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA
+[*] 	 TXT facebook.com google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s
+[*] 	 TXT facebook.com v=spf1 redirect=_spf.facebook.com
+[*] 	 TXT facebook.com google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY
+[*] 	 TXT facebook.com zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147
+[*] 	 TXT _dmarc.facebook.com v=DMARC1; p=reject; rua=mailto:a@dmarc.facebookmail.com; ruf=mailto:fb-dmarc@datafeeds.phishlabs.com; pct=100
+[*] Enumerating SRV Records
+[-] No SRV Records Found for facebook.com
+</pre>
+<h2>=== Subdomains ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+[91m
+                 ____        _     _ _     _   _____
+                / ___| _   _| |__ | (_)___| |_|___ / _ __
+                \___ \| | | | '_ \| | / __| __| |_ \| '__|
+                 ___) | |_| | |_) | | \__ \ |_ ___) | |
+                |____/ \__,_|_.__/|_|_|___/\__|____/|_|[0m[93m
+
+                # Coded By Ahmed Aboul-Ela - @aboul3la
+    
+[94m[-] Enumerating subdomains now for facebook.com[0m
+[92m[-] Searching now in Baidu..[0m
+[92m[-] Searching now in Yahoo..[0m
+[92m[-] Searching now in Google..[0m
+[92m[-] Searching now in Bing..[0m
+[92m[-] Searching now in Ask..[0m
+[92m[-] Searching now in Netcraft..[0m
+[92m[-] Searching now in DNSdumpster..[0m
+[92m[-] Searching now in Virustotal..[0m
+[92m[-] Searching now in ThreatCrowd..[0m
+[92m[-] Searching now in SSL Certificates..[0m
+[92m[-] Searching now in PassiveDNS..[0m
+[91m[!] Error: Virustotal probably now is blocking our requests[0m
+[93m[-] Saving results to file: [0m[91m-[0m
+[93m[-] Total Unique Subdomains Found: 379[0m
+[92mchina--facebook.com[0m
+[92mwww.china--facebook.com[0m
+[92mf--facebook.com[0m
+[92mwww.facebook.com[0m
+[92maccountscenter.facebook.com[0m
+[92madsmanager.facebook.com[0m
+[92madtools.facebook.com[0m
+[92mafsip.facebook.com[0m
+[92mak.facebook.com[0m
+[92ms-static.ak.facebook.com[0m
+[92malpha.facebook.com[0m
+[92mwww.alpha.facebook.com[0m
+[92mfb.alpha.facebook.com[0m
+[92mm.alpha.facebook.com[0m
+[92mfb.m.alpha.facebook.com[0m
+[92msecure.alpha.facebook.com[0m
+[92mapi.facebook.com[0m
+[92mapps.facebook.com[0m
+[92mar-ar.facebook.com[0m
+[92massistant.facebook.com[0m
+[92mastrazeneca.facebook.com[0m
+[92mautodiscover.facebook.com[0m
+[92mb-m.facebook.com[0m
+[92mbeta.facebook.com[0m
+[92mfb.beta.facebook.com[0m
+[92mlogin.beta.facebook.com[0m
+[92mm.beta.facebook.com[0m
+[92mfb.m.beta.facebook.com[0m
+[92msecure.beta.facebook.com[0m
+[92mbg-bg.facebook.com[0m
+[92mbigzipfiles.facebook.com[0m
+[92mbt.facebook.com[0m
+[92mbusiness.facebook.com[0m
+[92mz-p42-instagram.c10r.facebook.com[0m
+[92mchannel.facebook.com[0m
+[92mchat.facebook.com[0m
+[92mcinyour.facebook.com[0m
+[92mcinyourrc.facebook.com[0m
+[92mwww.cinyourrc.facebook.com[0m
+[92mclientsidetesticici.facebook.com[0m
+[92mwww.clientsidetesticici.facebook.com[0m
+[92mcode.facebook.com[0m
+[92mconectadosbancogalicia.facebook.com[0m
+[92mconnect.facebook.com[0m
+[92mwww.connect.facebook.com[0m
+[92mapi.connect.facebook.com[0m
+[92mlogin.connect.facebook.com[0m
+[92mssl.connect.facebook.com[0m
+[92mllama-ztp.corp.facebook.com[0m
+[92mcreators.facebook.com[0m
+[92mcs-cz.facebook.com[0m
+[92mcstools.facebook.com[0m
+[92mctscan.facebook.com[0m
+[92mda-dk.facebook.com[0m
+[92mjenkins.presto.data.facebook.com[0m
+[92mwww.jenkins.presto.data.facebook.com[0m
+[92mdataforgood.facebook.com[0m
+[92mde-de.facebook.com[0m
+[92mpush.delivery.facebook.com[0m
+[92mdesign.facebook.com[0m
+[92mdev.facebook.com[0m
+[92msecure.dev.facebook.com[0m
+[92mdevelopers.facebook.com[0m
+[92mdevoteam.facebook.com[0m
+[92mel-gr.facebook.com[0m
+[92men-gb.facebook.com[0m
+[92mes-es.facebook.com[0m
+[92mes-la.facebook.com[0m
+[92meu-es.facebook.com[0m
+[92mexprealty.facebook.com[0m
+[92mextern.facebook.com[0m
+[92mextools.facebook.com[0m
+[92mfa-ir.facebook.com[0m
+[92mfacebook-amex.facebook.com[0m
+[92mfacebook-amex-dev.facebook.com[0m
+[92mfacebook-amex-encryption.facebook.com[0m
+[92mfacebook-amex-sign.facebook.com[0m
+[92mfacebook-amex-sign-enc-dev.facebook.com[0m
+[92mfacebook-icd-autopay.facebook.com[0m
+[92mfamilycenter.facebook.com[0m
+[92mfb.facebook.com[0m
+[92mfi-fi.facebook.com[0m
+[92mfpt.facebook.com[0m
+[92mfr-ca.facebook.com[0m
+[92mfr-fr.facebook.com[0m
+[92mfree.facebook.com[0m
+[92mdevvm1958.ftw3.facebook.com[0m
+[92mgraph.facebook.com[0m
+[92mhe-il.facebook.com[0m
+[92mhi-in.facebook.com[0m
+[92mhr.facebook.com[0m
+[92mhr-hr.facebook.com[0m
+[92mhu-hu.facebook.com[0m
+[92mcisco-imc.iad3.facebook.com[0m
+[92mnetdna01.iad3.facebook.com[0m
+[92mid-id.facebook.com[0m
+[92mintern.facebook.com[0m
+[92mm.intern.facebook.com[0m
+[92mreview.intern.facebook.com[0m
+[92msecure.intern.facebook.com[0m
+[92msrt.intern.facebook.com[0m
+[92minterninyour.facebook.com[0m
+[92msecure.interninyour.facebook.com[0m
+[92minternmc.facebook.com[0m
+[92mm.internmc.facebook.com[0m
+[92mreview.internmc.facebook.com[0m
+[92msecure.internmc.facebook.com[0m
+[92minternmcr.facebook.com[0m
+[92msecure.internmcr.facebook.com[0m
+[92minyour.facebook.com[0m
+[92msecure.inyour.facebook.com[0m
+[92minyourrc.facebook.com[0m
+[92mit-it.facebook.com[0m
+[92mja-jp.facebook.com[0m
+[92mklepierre.facebook.com[0m
+[92mko-kr.facebook.com[0m
+[92ml.facebook.com[0m
+[92mlantern.facebook.com[0m
+[92mlatest.facebook.com[0m
+[92msecure.latest.facebook.com[0m
+[92mletools.facebook.com[0m
+[92mlite.facebook.com[0m
+[92mlm.facebook.com[0m
+[92mlogin.facebook.com[0m
+[92mlookaside.facebook.com[0m
+[92mlt-lt.facebook.com[0m
+[92mlv-lv.facebook.com[0m
+[92mm.facebook.com[0m
+[92mmail.facebook.com[0m
+[92mmailapac.facebook.com[0m
+[92mmaileast.facebook.com[0m
+[92mmailemea.facebook.com[0m
+[92mmbasic.facebook.com[0m
+[92mmeli.facebook.com[0m
+[92mml-in.facebook.com[0m
+[92mmobile.facebook.com[0m
+[92mms-my.facebook.com[0m
+[92mmtouch.facebook.com[0m
+[92msmtpin.mx.facebook.com[0m
+[92mnb-no.facebook.com[0m
+[92mne-np.facebook.com[0m
+[92mregister.new.facebook.com[0m
+[92mnewdev.facebook.com[0m
+[92mnl-be.facebook.com[0m
+[92mnl-nl.facebook.com[0m
+[92ma.ok.facebook.com[0m
+[92mororagroup.facebook.com[0m
+[92moutlook.facebook.com[0m
+[92mp.facebook.com[0m
+[92mperfshield.facebook.com[0m
+[92mpl-pl.facebook.com[0m
+[92mplaypen0.facebook.com[0m
+[92mplaypen1.facebook.com[0m
+[92mplaypen10.facebook.com[0m
+[92mplaypen11.facebook.com[0m
+[92mplaypen12.facebook.com[0m
+[92mplaypen13.facebook.com[0m
+[92mplaypen14.facebook.com[0m
+[92mplaypen15.facebook.com[0m
+[92mplaypen16.facebook.com[0m
+[92mplaypen17.facebook.com[0m
+[92mplaypen18.facebook.com[0m
+[92mplaypen19.facebook.com[0m
+[92mplaypen2.facebook.com[0m
+[92mplaypen20.facebook.com[0m
+[92mplaypen21.facebook.com[0m
+[92mplaypen22.facebook.com[0m
+[92mplaypen23.facebook.com[0m
+[92mplaypen24.facebook.com[0m
+[92mplaypen25.facebook.com[0m
+[92mplaypen26.facebook.com[0m
+[92mplaypen27.facebook.com[0m
+[92mplaypen28.facebook.com[0m
+[92mplaypen29.facebook.com[0m
+[92mplaypen3.facebook.com[0m
+[92mplaypen30.facebook.com[0m
+[92mplaypen4.facebook.com[0m
+[92mplaypen5.facebook.com[0m
+[92mplaypen6.facebook.com[0m
+[92mplaypen7.facebook.com[0m
+[92mplaypen8.facebook.com[0m
+[92mplaypen9.facebook.com[0m
+[92mprod.facebook.com[0m
+[92mwww.prod.facebook.com[0m
+[92mm.prod.facebook.com[0m
+[92msecure.prod.facebook.com[0m
+[92mproxygen-verifier.facebook.com[0m
+[92mwww.proxygen-verifier.facebook.com[0m
+[92mproxygen_verifier.facebook.com[0m
+[92mpt-br.facebook.com[0m
+[92mpt-pt.facebook.com[0m
+[92mrampart.facebook.com[0m
+[92mrampart001.rampart.facebook.com[0m
+[92mrampart002.rampart.facebook.com[0m
+[92mrampart003.rampart.facebook.com[0m
+[92mrampart004.rampart.facebook.com[0m
+[92mrampart005.rampart.facebook.com[0m
+[92mrampart006.rampart.facebook.com[0m
+[92mrampart007.rampart.facebook.com[0m
+[92mrampart008.rampart.facebook.com[0m
+[92mrampart009.rampart.facebook.com[0m
+[92mrampart010.rampart.facebook.com[0m
+[92mrampart011.rampart.facebook.com[0m
+[92mrampart012.rampart.facebook.com[0m
+[92mrampart013.rampart.facebook.com[0m
+[92mrampart014.rampart.facebook.com[0m
+[92mrampart015.rampart.facebook.com[0m
+[92mrampart016.rampart.facebook.com[0m
+[92mrampart017.rampart.facebook.com[0m
+[92mrampart018.rampart.facebook.com[0m
+[92mrampart019.rampart.facebook.com[0m
+[92mrampart020.rampart.facebook.com[0m
+[92mrampart021.rampart.facebook.com[0m
+[92mrampart022.rampart.facebook.com[0m
+[92mrampart023.rampart.facebook.com[0m
+[92mrampart024.rampart.facebook.com[0m
+[92mrampart025.rampart.facebook.com[0m
+[92mrampart026.rampart.facebook.com[0m
+[92mrampart027.rampart.facebook.com[0m
+[92mrampart028.rampart.facebook.com[0m
+[92mrampart029.rampart.facebook.com[0m
+[92mrampart030.rampart.facebook.com[0m
+[92mrampart031.rampart.facebook.com[0m
+[92mrampart032.rampart.facebook.com[0m
+[92mrampart033.rampart.facebook.com[0m
+[92mrampart034.rampart.facebook.com[0m
+[92mrampart035.rampart.facebook.com[0m
+[92mrampart036.rampart.facebook.com[0m
+[92mrampart037.rampart.facebook.com[0m
+[92mrampart038.rampart.facebook.com[0m
+[92mrampart039.rampart.facebook.com[0m
+[92mrampart040.rampart.facebook.com[0m
+[92mrampart001.facebook.com[0m
+[92mrampart002.facebook.com[0m
+[92mrampart003.facebook.com[0m
+[92mrampart004.facebook.com[0m
+[92mrampart005.facebook.com[0m
+[92mrampart006.facebook.com[0m
+[92mrampart007.facebook.com[0m
+[92mrampart008.facebook.com[0m
+[92mrampart009.facebook.com[0m
+[92mrampart010.facebook.com[0m
+[92mrampart011.facebook.com[0m
+[92mrampart012.facebook.com[0m
+[92mrampart013.facebook.com[0m
+[92mrampart014.facebook.com[0m
+[92mrampart015.facebook.com[0m
+[92mrampart016.facebook.com[0m
+[92mrampart017.facebook.com[0m
+[92mrampart018.facebook.com[0m
+[92mrampart019.facebook.com[0m
+[92mrampart020.facebook.com[0m
+[92mrampart021.facebook.com[0m
+[92mrampart022.facebook.com[0m
+[92mrampart023.facebook.com[0m
+[92mrampart024.facebook.com[0m
+[92mrampart025.facebook.com[0m
+[92mrampart026.facebook.com[0m
+[92mrampart027.facebook.com[0m
+[92mrampart028.facebook.com[0m
+[92mrampart029.facebook.com[0m
+[92mrampart030.facebook.com[0m
+[92mrampart031.facebook.com[0m
+[92mrampart032.facebook.com[0m
+[92mrampart033.facebook.com[0m
+[92mrampart034.facebook.com[0m
+[92mrampart035.facebook.com[0m
+[92mrampart036.facebook.com[0m
+[92mrampart037.facebook.com[0m
+[92mrampart038.facebook.com[0m
+[92mrampart039.facebook.com[0m
+[92mrampart040.facebook.com[0m
+[92mregister.facebook.com[0m
+[92mresearch.facebook.com[0m
+[92mro-ro.facebook.com[0m
+[92mru-ru.facebook.com[0m
+[92mscgraph.facebook.com[0m
+[92minterngraph.scgraph.facebook.com[0m
+[92mprod.scgraph.facebook.com[0m
+[92minterngraph.prod.scgraph.facebook.com[0m
+[92mstaging.scgraph.facebook.com[0m
+[92minterngraph.staging.scgraph.facebook.com[0m
+[92msecure.facebook.com[0m
+[92mdevelopers.secure.facebook.com[0m
+[92msecure-media-sf2p.facebook.com[0m
+[92msecure-profile.facebook.com[0m
+[92mservicenow.facebook.com[0m
+[92msha256.facebook.com[0m
+[92mshadow.facebook.com[0m
+[92mshortwave.facebook.com[0m
+[92mnetdna01.sjc1.facebook.com[0m
+[92msk-sk.facebook.com[0m
+[92msl-si.facebook.com[0m
+[92msparkar.facebook.com[0m
+[92msq-al.facebook.com[0m
+[92msr-rs.facebook.com[0m
+[92msrt.facebook.com[0m
+[92mssl.facebook.com[0m
+[92mstatic.facebook.com[0m
+[92msv-se.facebook.com[0m
+[92msw-ke.facebook.com[0m
+[92mmsgin.t.facebook.com[0m
+[92mtech.facebook.com[0m
+[92mtelefonica.facebook.com[0m
+[92mth-th.facebook.com[0m
+[92mtl-ph.facebook.com[0m
+[92mtls13.facebook.com[0m
+[92mtr-tr.facebook.com[0m
+[92mtrunkstable.facebook.com[0m
+[92msecure.trunkstable.facebook.com[0m
+[92muk-ua.facebook.com[0m
+[92mup.facebook.com[0m
+[92mv6.facebook.com[0m
+[92mv6intern.facebook.com[0m
+[92mvi-vn.facebook.com[0m
+[92mcirca.vip.facebook.com[0m
+[92mdewey.vip.facebook.com[0m
+[92mwww.dewey.vip.facebook.com[0m
+[92mdewey-lfs.vip.facebook.com[0m
+[92mwww.dewey-lfs.vip.facebook.com[0m
+[92mhyper-boundary-gate.vip.facebook.com[0m
+[92mpresto.vip.facebook.com[0m
+[92mwww.presto.vip.facebook.com[0m
+[92msvn.vip.facebook.com[0m
+[92mwww.svn.vip.facebook.com[0m
+[92msymsrv.vip.facebook.com[0m
+[92mwww.symsrv.vip.facebook.com[0m
+[92myocto-mirror.vip.facebook.com[0m
+[92mwww.yocto-mirror.vip.facebook.com[0m
+[92mcirca.vvv.facebook.com[0m
+[92mhyper-boundary-gate.vvv.facebook.com[0m
+[92mmsgin.vvv.facebook.com[0m
+[92mmsgin-regional.vvv.facebook.com[0m
+[92msims.vvv.facebook.com[0m
+[92mwww.sims.vvv.facebook.com[0m
+[92msmtpin.vvv.facebook.com[0m
+[92mweb.facebook.com[0m
+[92mz.facebook.com[0m
+[92mzh-cn.facebook.com[0m
+[92mzh-hk.facebook.com[0m
+[92mzh-tw.facebook.com[0m
+[92mnews--facebook.com[0m
+[92mthe--facebook.com[0m
+[92mwww.the--facebook.com[0m
+[92mcpanel.the--facebook.com[0m
+[92mgsstore.the--facebook.com[0m
+[92mwww.gsstore.the--facebook.com[0m
+[92mmail.the--facebook.com[0m
+[92mwebdisk.the--facebook.com[0m
+[92mwebmail.the--facebook.com[0m
+[92mthefacebook.com[0m
+[92mash-cas01.thefacebook.com[0m
+[92mash-cas02.thefacebook.com[0m
+[92mash-cas03.thefacebook.com[0m
+[92mash-cas04.thefacebook.com[0m
+[92mash-cas05.thefacebook.com[0m
+[92mash-cas06.thefacebook.com[0m
+[92mash-hub01.thefacebook.com[0m
+[92mash-hub02.thefacebook.com[0m
+[92mash-hub03.thefacebook.com[0m
+[92mash-hub04.thefacebook.com[0m
+[92mash-hub05.thefacebook.com[0m
+[92mash-hub06.thefacebook.com[0m
+[92mautodiscover.thefacebook.com[0m
+[92mdrmail.thefacebook.com[0m
+[92mlegacymail.thefacebook.com[0m
+[92mmail.thefacebook.com[0m
+[92msc-cas01.thefacebook.com[0m
+[92msc-cas02.thefacebook.com[0m
+[92msc-cas03.thefacebook.com[0m
+[92msc-cas04.thefacebook.com[0m
+[92msc-cas05.thefacebook.com[0m
+[92msc-cas06.thefacebook.com[0m
+[92msc-hub01.thefacebook.com[0m
+[92msc-hub02.thefacebook.com[0m
+[92msc-hub03.thefacebook.com[0m
+[92msc-hub04.thefacebook.com[0m
+[92msc-hub05.thefacebook.com[0m
+[92msc-hub06.thefacebook.com[0m
+</pre>
+<h2>=== HTTPX Probing ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+{"timestamp":"2025-06-11T02:53:32.648574859+05:00","port":"443","url":"https://facebook.com","input":"facebook.com","title":"‫Facebook - لاگ ان کریں یا سائن اپ کریں‬","scheme":"https","content_type":"text/html","method":"GET","host":"157.240.227.35","path":"/","final_url":"https://www.facebook.com/","time":"1.52828259s","chain_status_codes":[301,200],"a":["157.240.227.35"],"aaaa":["2a03:2880:f167:81:face:b00c:0:25de"],"tech":["HSTS","HTTP/3"],"words":750,"lines":25,"status_code":200,"content_length":86678,"failed":false,"knowledgebase":{"PageType":"nonerror","pHash":0},"resolvers":["1.1.1.1:53","1.0.0.1:53"]}
+</pre>
+<h2>=== Port Scanning ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-11 02:53 PKT
+Nmap scan report for facebook.com (57.144.148.1)
+Host is up (0.061s latency).
+Other addresses for facebook.com (not scanned): 2a03:2880:f34a:1:face:b00c:0:25de
+rDNS record for 57.144.148.1: edge-star-mini-shv-02-mct1.facebook.com
+Not shown: 13 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      proxygen-bolt
+443/tcp open  ssl/https
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=6/11%Time=6848A965%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,B3,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nLocation:\x20htt
+SF:ps:///\r\nContent-Type:\x20text/plain\r\nServer:\x20proxygen-bolt\r\nDa
+SF:te:\x20Tue,\x2010\x20Jun\x202025\x2016:53:31\x20GMT\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x200\r\n\r\n")%r(HTTPOptions,B3,"HTTP/1\.1\x203
+SF:01\x20Moved\x20Permanently\r\nLocation:\x20https:///\r\nContent-Type:\x
+SF:20text/plain\r\nServer:\x20proxygen-bolt\r\nDate:\x20Tue,\x2010\x20Jun\
+SF:x202025\x2016:53:31\x20GMT\r\nConnection:\x20close\r\nContent-Length:\x
+SF:200\r\n\r\n")%r(RTSPRequest,C62,"HTTP/1\.1\x20400\x20Bad\x20Request\r\n
+SF:Content-Type:\x20text/html;\x20charset=utf-8\r\nProxy-Status:\x20http_h
+SF:eaders_parsing_error;\x20details=\"ParseHeader\"\r\nDate:\x20Tue,\x2010
+SF:\x20Jun\x202025\x2016:53:31\x20GMT\r\nConnection:\x20close\r\nContent-L
+SF:ength:\x202959\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"en\"\x20id=\"
+SF:facebook\">\n\x20\x20<head>\n\x20\x20\x20\x20<title>Facebook\x20\|\x20E
+SF:rror</title>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20
+SF:\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-cache\">\n\x2
+SF:0\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=\"no-stor
+SF:e\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache-control\"\x20content=
+SF:\"max-age=0\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"expires\"\x20cont
+SF:ent=\"-1\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"pragma\"\x20content=
+SF:\"no-cache\">\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"no
+SF:index,nofollow\">\n\x20\x20\x20\x20<style>\n\x20\x20\x20\x20\x20\x20htm
+SF:l,\x20body\x20{\n\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#141823;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#e9eaed;\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20font-family:\x20Helvetica,\x20Lucida\x20Grande,\x
+SF:20Arial,\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20Tahoma,\x20Verdana,\x20sans-serif;\n\x20\x20\x20
+SF:\x20\x20\x20\x20\x20margin:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20padd
+SF:ing:\x200;\n\x20\x20\x20\x20\x20\x20\x20\x20text-align")%r(X11Probe,C62
+SF:,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20
+SF:charset=utf-8\r\nProxy-Status:\x20http_headers_parsing_error;\x20detail
+SF:s=\"ParseHeader\"\r\nDate:\x20Tue,\x2010\x20Jun\x202025\x2016:53:31\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Length:\x202959\r\n\r\n<!DOCTYPE
+SF:\x20html>\n<html\x20lang=\"en\"\x20id=\"facebook\">\n\x20\x20<head>\n\x
+SF:20\x20\x20\x20<title>Facebook\x20\|\x20Error</title>\n\x20\x20\x20\x20<
+SF:meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x20http-equiv=\"cache
+SF:-control\"\x20content=\"no-cache\">\n\x20\x20\x20\x20<meta\x20http-equi
+SF:v=\"cache-control\"\x20content=\"no-store\">\n\x20\x20\x20\x20<meta\x20
+SF:http-equiv=\"cache-control\"\x20content=\"max-age=0\">\n\x20\x20\x20\x2
+SF:0<meta\x20http-equiv=\"expires\"\x20content=\"-1\">\n\x20\x20\x20\x20<m
+SF:eta\x20http-equiv=\"pragma\"\x20content=\"no-cache\">\n\x20\x20\x20\x20
+SF:<meta\x20name=\"robots\"\x20content=\"noindex,nofollow\">\n\x20\x20\x20
+SF:\x20<style>\n\x20\x20\x20\x20\x20\x20html,\x20body\x20{\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20color:\x20#141823;\n\x20\x20\x20\x20\x20\x20\x20\x20b
+SF:ackground-color:\x20#e9eaed;\n\x20\x20\x20\x20\x20\x20\x20\x20font-fami
+SF:ly:\x20Helvetica,\x20Lucida\x20Grande,\x20Arial,\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Tahoma,\
+SF:x20Verdana,\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20margin:\x20
+SF:0;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20text-align");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=6/11%Time=6848A96B%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1225,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nVary:\x20Acce
+SF:pt-Encoding\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x20no-
+SF:cache,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x20Jan
+SF:\x202000\x2000:00:00\x20GMT\r\ncontent-security-policy:\x20default-src\
+SF:x20'self'\x20blob:\x20\*;script-src\x20'nonce-BYKdwUg7'\x20\*\.facebook
+SF:\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20127\.0\.0\.1:\*\x20blob
+SF::\x20'self'\x20https://\*\.google-analytics\.com\x20\*\.google\.com;sty
+SF:le-src\x20'self'\x20data:\x20blob:\x20'unsafe-inline';connect-src\x20's
+SF:elf'\x20data:\x20blob:\x20\*\.facebook\.com\x20facebook\.com\x20\*\.fbc
+SF:dn\.net\x20\*\.facebook\.net\x20wss://\*\.facebook\.com:\*\x20wss://\*\
+SF:.whatsapp\.com:\*\x20wss://\*\.fbcdn\.net\x20attachment\.fbsbx\.com\x20
+SF:ws://localhost:\*\x20\*\.cdninstagram\.com\x20https://\*\.google-analyt
+SF:ics\.com;font-src\x20'self'\x20data:\x20blob:\x20\*;img-src\x20'self'\x
+SF:20data:\x20blob:\x20\*\x20https://\*\.google-analytics\.com;media-src\x
+SF:20'self'\x20data:\x20blob:\x20\*;child-src\x20'self'\x20data:\x20blob:\
+SF:x20\*;frame-src\x20'self'\x20data:\x20blob:\x20\*;manifest-src\x20'self
+SF:'\x20data:\x20blob:\x20\*;object-src\x20'self'\x20data:\x20blob:\x20\*;
+SF:worker-sr")%r(HTTPOptions,1263,"HTTP/1\.1\x20500\x20Internal\x20Server\
+SF:x20Error\r\nVary:\x20Accept-Encoding\r\nerror-mid:\x20c7c8b69fe9b6faa81
+SF:409f203767d7880\r\nPragma:\x20no-cache\r\nCache-Control:\x20private,\x2
+SF:0no-cache,\x20no-store,\x20must-revalidate\r\nExpires:\x20Sat,\x2001\x2
+SF:0Jan\x202000\x2000:00:00\x20GMT\r\ncontent-security-policy:\x20default-
+SF:src\x20'self'\x20blob:\x20\*;script-src\x20'nonce-UWOzyMA4'\x20\*\.face
+SF:book\.com\x20\*\.fbcdn\.net\x20\*\.facebook\.net\x20127\.0\.0\.1:\*\x20
+SF:blob:\x20'self'\x20https://\*\.google-analytics\.com\x20\*\.google\.com
+SF:;style-src\x20'self'\x20data:\x20blob:\x20'unsafe-inline';connect-src\x
+SF:20'self'\x20data:\x20blob:\x20\*\.facebook\.com\x20facebook\.com\x20\*\
+SF:.fbcdn\.net\x20\*\.facebook\.net\x20wss://\*\.facebook\.com:\*\x20wss:/
+SF:/\*\.whatsapp\.com:\*\x20wss://\*\.fbcdn\.net\x20attachment\.fbsbx\.com
+SF:\x20ws://localhost:\*\x20\*\.cdninstagram\.com\x20https://\*\.google-an
+SF:alytics\.com;font-src\x20'self'\x20data:\x20blob:\x20\*;img-src\x20'sel
+SF:f'\x20data:\x20blob:\x20\*\x20https://\*\.google-analytics\.com;media-s
+SF:rc\x20'self'\x20data:\x20blob:\x20\*;child-src\x20'self'\x20data:\x20bl
+SF:ob:\x20\*;frame-src\x20'self'\x20data:\x20blob:\x20\*;manifest-src\x20'
+SF:self'\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 27.22 seconds
+</pre>
+<h2>=== Banner Grabbing (Nikto) ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+=== http://facebook.com:80 ===
+No interesting findings.
+
+=== https://facebook.com:443 ===
+No interesting findings.
+</pre>
+<h2>=== Technology Detection (WhatWeb) ===</h2>
+<pre style='background:#f4f4f4;padding:1em;border-radius:4px;'>
+https://facebook.com : https://facebook.com [301 Moved Permanently] Country[FRANCE][FR], IP[57.144.148.1], RedirectLocation[https://www.facebook.com/], Strict-Transport-Security[max-age=15552000; preload], UncommonHeaders[x-fb-debug,x-fb-connection-quality,alt-svc]
+https://www.facebook.com/ [200 OK] Cookies[fr,sb], Country[FRANCE][FR], HTML5, HttpOnly[fr,sb], IP[57.144.148.1], Meta-Refresh-Redirect[/?_fb_noscript=1], PasswordField[pass], Script[text/javascript], Strict-Transport-Security[max-age=15552000; preload], UncommonHeaders[reporting-endpoints,report-to,content-security-policy,document-policy,permissions-policy,cross-origin-resource-policy,cross-origin-opener-policy,x-content-type-options,origin-agent-cluster,x-fb-debug,x-fb-connection-quality,alt-svc], X-Frame-Options[DENY], X-XSS-Protection[0]
+https://www.facebook.com/?_fb_noscript=1 [200 OK] Cookies[fr,noscript,sb], Country[FRANCE][FR], HTML5, HttpOnly[fr,sb], IP[57.144.148.1], PasswordField[pass], Script[text/javascript], Strict-Transport-Security[max-age=15552000; preload], UncommonHeaders[reporting-endpoints,report-to,content-security-policy,document-policy,permissions-policy,cross-origin-resource-policy,cross-origin-opener-policy,x-content-type-options,origin-agent-cluster,x-fb-debug,x-fb-connection-quality,alt-svc], X-Frame-Options[DENY], X-XSS-Protection[0]
+</pre>
+</body></html>
